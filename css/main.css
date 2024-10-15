@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+:root {
+    --orange: #F7C35F;
+    --greenlight: #678551;
+    --greendark: #344C31;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-family: "Gothic A1", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #263C28;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    height: 110px;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.logo {
+    width: 20%;
+}
+
+.nav {
+    top: 7px;
+    position: relative;
+    width: 50%;
+
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.active::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #F7C35F;
+    border-radius: 10px;
+
+}
+
+.firstpage {
+    background-image: url(../img/bg.png);
+    height: 800px;
+    width: 100%;
+}
+
+.firstpage h1 {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+h4 {
+    top: 51px;
+    position: relative;
+    font-size: 25px;
+}
+
+.or {
+    display: flex;
+    top: 15px;
+    position: relative;
+    color: #F7C35F;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-end;
+}
+
+.fh {
+    top: -15px;
+    position: relative;
+}
+
+.fpb {
+    left: 150px;
+    top: 135px;
+    position: relative;
+    display: flex;
+    width: 35%;
+    height: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.imfive {
+    top: 31px;
+    position: relative;
+}
+
+.btn {
+    text-transform: uppercase;
+    top: 25px;
+    position: relative;
+    width: 200px;
+    height: 70px;
+    color: black;
+    font-size: 18px;
+    background-color: #F7C35F;
+    border-radius: 20px;
+}
+
+.intro {
+    top: 100px;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.introblock {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.bigi {
+    display: flex;
+}
+
+.bigi::before {
+    top: 350px;
+    position: relative;
+    content: "";
+    display: block;
+    width: 21px;
+    height: 250px;
+    background-color: #F7C35F;
+    border-radius: 5px;
+}
+
+.smalli {
+    left: 10px;
+    bottom: 50px;
+    position: relative;
+    opacity: 0.8;
+    border-radius: 10px;
+    background-color: var(--greenlight);
+    width: 407px;
+    display: flex;
+    height: 167px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.si {
+    display: flex;
+}
+
+.st {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.introtxt {
+    height: 500px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.introtxt h1 {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.introtxt h2 {
+    color: #F7C35F;
+    font-family: "Livvic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h1 h2 {
+    font-family: "Livvic", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+}
+
+.introtxt li {
+    display: flex;
+    padding: 7px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.material-symbols-outlined {
+    margin: 0px 5px;
+    color: #F7C35F;
+
+}
+
+.foods {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ft {
+    display: flex;
+    flex-direction: column;
+    height: 40%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fb {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fbb {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #d9d9d9 rgba( #d9d9d9);
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.fbba {
+    color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(#F7C35F);
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-evenly;
+    align-items: center;
+}
