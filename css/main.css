@@ -626,3 +626,15 @@ input:not(.lastin) {
     flex-direction: row;
     align-content: center;
 }
+
+
+@media (min-width:1200px) and (max-width:1400px) {
+    header {
+        background-color: #fe0606;
+    }
+}
+@media (min-width:1000px) and (max-width:1199px) {
+    header {
+        background-color: blueviolet;
+    }
+}
